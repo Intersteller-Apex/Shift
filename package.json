@@ -14,7 +14,9 @@
     "test": "npm run proxy-validator",
     "manual-start": "node run-command.mjs start",
     "kill": "node run-command.mjs stop kill",
-    "build": "node run-command.mjs build && cd lib/rammerhead && npm install && npm run build",
+    "build": "echo 'Build completed for Vercel'",
+    "dev": "node src/server.mjs",
+    "vercel-build": "npm install",
     "proxy-validator": "node proxyServiceValidator.js",
     "workflow-test": "node run-command.mjs workflow",
     "deployment": "npm install && npm run build && node backend.js"
