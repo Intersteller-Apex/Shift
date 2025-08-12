@@ -1,0 +1,9 @@
+{
+  "title": "Shift Engine",
+  "host": "0.0.0.0",
+  "pathname": "/",
+  "minifyScripts": true,
+  "randomizeIdentifiers": true,
+  "production": false,
+  "usingSEO": true
+}

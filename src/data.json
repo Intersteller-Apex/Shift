@@ -1,0 +1,33 @@
+{
+  "chars": ["&#173;", "&#8203;", "&shy;"],
+  "keywords": [
+    "Example1",
+    "Example2",
+    "Example3",
+    "Example4",
+    "Example5",
+    "Example6",
+    "Example7",
+    "Example8",
+    "Example9"
+  ],
+  "content": [
+    "Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1",
+    "Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2Example2"
+  ],
+  "delimiter": "*",
+  "textMasks": {
+      "Shift Engine": ["S*h*i*f*t *E*n*g*i*n*e"],
+  "Shift Engine": ["S*h*i*f*t *E*n*g*i*n*e"],
+    "Proxies": ["Pr*ox*i*es", "P*ro*x*ies", "Pro*x*i*es", "Pr*ox*ie*s"],
+    "Proxy": ["Pr*ox*y", "P*ro*x*y", "Pro*x*y"],
+    "Engine": ["E*n*g*i*n*e", "En*g*i*n*e", "Eng*i*n*e"],
+    "Access": ["Ac*c*e*ss", "Ac*c*es*s", "Acc*es*s"],
+    "Engines": ["En*g*i*n*es", "Eng*i*n*es", "Engin*e*s"],
+    "Bypass": ["By*pa*ss", "By*pa*ss*es", "Byp*as*s", "B*y*p*a*s*s"]
+  },
+  "splash": [
+    "{{mask}}{{This version is the public build of the HU LTS project, and it's being worked on via the master branch! Stuff will NOT work!}}"
+  ],
+  "version": ["6.6.0"]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "shift-engine-vercel",
+  "version": "1.0.0",
+  "description": "Shift Engine - Multi-Engine Web Proxy Service (Vercel Deployment)",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed for Vercel'",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/static": "^6.12.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiftengine/shift-engine"
+  },
+  "keywords": [
+    "proxy",
+    "web-proxy",
+    "multi-engine",
+    "vercel"
+  ],
+  "author": "Shift Engine Team",
+  "license": "MIT"
+} 
